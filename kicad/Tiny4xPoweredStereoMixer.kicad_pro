@@ -639,12 +639,32 @@
       "Root"
     ],
     [
-      "57e4104d-0f78-45fe-9d7a-025cd8df3e3d",
-      "LM1117 Low Dropout Regulator"
+      "2de80bd8-59cf-45da-b027-4f047eba247b",
+      "TPS54202 Inverting PSU"
     ],
     [
-      "94012ff5-5e55-42ff-bfc1-d0e6ccd3728b",
-      "TPS54202 Inverting PSU"
+      "90ba425d-eaf5-48b4-804f-91b46c159bdf",
+      "PSU"
+    ],
+    [
+      "925ae624-2e35-4cd5-9b94-c0e6f66c238e",
+      "mcu"
+    ],
+    [
+      "b2c85d57-e9b9-423a-8123-668b8a2ebf5a",
+      "DAC7718"
+    ],
+    [
+      "32b8740c-e0bd-40f8-9090-a6e67ec33c06",
+      "VCA_SSI2164"
+    ],
+    [
+      "e89f69b4-bd2d-4ce2-9342-6dc4ac72fb9c",
+      "AUDIO_INPUT"
+    ],
+    [
+      "752d6e11-6673-454b-90b7-828317760330",
+      "ROTARY_ENCODERS"
     ]
   ],
   "text_variables": {
