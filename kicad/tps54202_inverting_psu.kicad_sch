@@ -1040,12 +1040,6 @@
 		(uuid "5ddfef89-ab81-4013-843d-593b0e62f9a1")
 	)
 	(junction
-		(at 71.12 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "715711ad-9067-4272-b09c-8cd75bd03ceb")
-	)
-	(junction
 		(at 215.9 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2102,72 +2096,6 @@
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/90ba425d-eaf5-48b4-804f-91b46c159bdf/2de80bd8-59cf-45da-b027-4f047eba247b"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 71.12 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bb2f0bb-a05f-4056-9d1b-f1b3b38ae373")
-		(property "Reference" "#FLG02"
-			(at 71.12 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 71.12 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 71.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6643b740-b3c9-49a0-8ed4-8ff24f3721c0")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/90ba425d-eaf5-48b4-804f-91b46c159bdf/2de80bd8-59cf-45da-b027-4f047eba247b"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)

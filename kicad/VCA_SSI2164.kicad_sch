@@ -769,6 +769,127 @@
 				)
 			)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1006,102 +1127,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-		)
-		(symbol "power:-2V5"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-2V5"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-2V5\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-2V5_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-2V5_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -1389,6 +1414,14 @@
 		(color 0 0 0 0)
 		(uuid "ff4e1dec-6df9-4c68-b4c4-556673be04ec")
 	)
+	(no_connect
+		(at 142.24 199.39)
+		(uuid "6cafe2f3-b114-43d9-9d8c-f33c889109ea")
+	)
+	(no_connect
+		(at 142.24 115.57)
+		(uuid "a41b8c48-c33e-44f4-9e3e-603059cd664c")
+	)
 	(wire
 		(pts
 			(xy 245.11 83.82) (xy 254 83.82)
@@ -1411,7 +1444,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 85.09) (xy 212.09 85.09)
+			(xy 167.64 85.09) (xy 184.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1481,6 +1514,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 184.15) (xy 212.09 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2916a082-5f60-4471-8c79-70829fab449b")
+	)
+	(wire
+		(pts
 			(xy 260.35 228.6) (xy 260.35 233.68)
 		)
 		(stroke
@@ -1498,6 +1541,26 @@
 			(type default)
 		)
 		(uuid "2e0dd552-daa8-4497-af16-6b113104e8c5")
+	)
+	(wire
+		(pts
+			(xy 189.23 107.95) (xy 212.09 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346ad9ef-cd7a-4d42-a122-acf3d6ce1133")
+	)
+	(wire
+		(pts
+			(xy 189.23 168.91) (xy 212.09 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a376bdc-7a1a-4d05-97d8-2b59ed6228c9")
 	)
 	(wire
 		(pts
@@ -1521,7 +1584,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 176.53) (xy 212.09 176.53)
+			(xy 167.64 176.53) (xy 184.15 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1661,7 +1724,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 100.33) (xy 212.09 100.33)
+			(xy 167.64 100.33) (xy 184.15 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1681,7 +1744,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 191.77) (xy 212.09 191.77)
+			(xy 189.23 85.09) (xy 212.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d92f15-8441-4926-8d9c-2dd5c6616989")
+	)
+	(wire
+		(pts
+			(xy 167.64 191.77) (xy 184.15 191.77)
 		)
 		(stroke
 			(width 0)
@@ -1711,7 +1784,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 107.95) (xy 212.09 107.95)
+			(xy 167.64 107.95) (xy 184.15 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1788,6 +1861,16 @@
 			(type default)
 		)
 		(uuid "9ff808a2-e594-4bb9-bbdb-ae21c7d00ea4")
+	)
+	(wire
+		(pts
+			(xy 189.23 191.77) (xy 212.09 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2254668-7718-4023-b31a-7a839dde9ec0")
 	)
 	(wire
 		(pts
@@ -1881,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 92.71) (xy 212.09 92.71)
+			(xy 167.64 92.71) (xy 184.15 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1891,7 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 184.15) (xy 212.09 184.15)
+			(xy 167.64 184.15) (xy 184.15 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1901,7 +1984,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 168.91) (xy 212.09 168.91)
+			(xy 167.64 168.91) (xy 184.15 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1961,6 +2044,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 100.33) (xy 212.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e3151f-d9d9-4916-946c-8fb82749d070")
+	)
+	(wire
+		(pts
 			(xy 254 69.85) (xy 254 83.82)
 		)
 		(stroke
@@ -1988,6 +2081,16 @@
 			(type default)
 		)
 		(uuid "e24a7e97-d4f5-4526-ba5e-26433e61f8db")
+	)
+	(wire
+		(pts
+			(xy 189.23 92.71) (xy 212.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a9c455-1ee3-4c51-b80c-091366327380")
 	)
 	(wire
 		(pts
@@ -2091,6 +2194,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 176.53) (xy 212.09 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff76607e-6f09-475a-8ff4-dada57536f80")
+	)
+	(wire
+		(pts
 			(xy 254 99.06) (xy 271.78 99.06)
 		)
 		(stroke
@@ -2098,6 +2211,28 @@
 			(type default)
 		)
 		(uuid "ffd20153-87c2-4abe-981f-d3afd9061e60")
+	)
+	(text "Class AB Mode"
+		(exclude_from_sim no)
+		(at 124.206 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39838058-58c3-4d25-9256-e75fbb8da51b")
+	)
+	(text "Class AB Mode"
+		(exclude_from_sim no)
+		(at 124.206 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d606fd9b-b7bc-423f-ac66-c0f2991fd931")
 	)
 	(hierarchical_label "ch4_left_audio"
 		(shape input)
@@ -2402,6 +2537,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 186.69 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d73dede-5207-4330-af0a-6050e1790190")
+		(property "Reference" "NT16"
+			(at 186.69 189.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 186.69 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 186.69 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8795c68c-6f19-4d77-991a-f9f22d3b6454")
+		)
+		(pin "1"
+			(uuid "1ba330bf-7a92-473d-bc0f-e7dcb2bef088")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
+					(reference "NT16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 241.3 83.82 90)
 		(unit 1)
@@ -2621,72 +2824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-2V5")
-		(at 260.35 257.81 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c741dda-c82b-4aee-8fd6-485b458bf6ca")
-		(property "Reference" "#PWR013"
-			(at 260.35 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-2V5"
-			(at 260.35 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-2V5\""
-			(at 260.35 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8e3d2b0-fb93-45ad-a98e-a3e0709622d2")
-		)
-		(instances
-			(project "Tiny4xPoweredStereoMixer"
-				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 229.87 191.77 0)
 		(unit 1)
@@ -2833,6 +2970,74 @@
 			(project "Tiny4xPoweredStereoMixer"
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 186.69 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a6074ad-b2ea-46ae-90e4-d680bd897d53")
+		(property "Reference" "NT12"
+			(at 186.69 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08bad5c7-d35e-4503-8e66-126e317f0f46")
+		)
+		(pin "1"
+			(uuid "89212520-55f0-4a61-b034-3048ac461d1e")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
+					(reference "NT12")
 					(unit 1)
 				)
 			)
@@ -3017,6 +3222,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 186.69 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7370e602-2e8c-44a7-964d-dd215e147af0")
+		(property "Reference" "NT15"
+			(at 186.69 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 186.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 186.69 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "090f2c7b-4f72-47dc-b359-2fa768be9719")
+		)
+		(pin "1"
+			(uuid "6efb242c-8bda-43cb-abf3-33dc44d99a48")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
+					(reference "NT15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-5V")
 		(at 154.94 120.65 180)
 		(unit 1)
@@ -3148,6 +3421,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 186.69 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "857fa7e3-e334-44b8-96c0-1d335b4301ec")
+		(property "Reference" "NT13"
+			(at 186.69 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 186.69 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 186.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adeb5a82-2709-4221-b150-6ddc422a5c24")
+		)
+		(pin "1"
+			(uuid "6466ab9c-aa75-4c1a-801c-e8f3d07a7b60")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
+					(reference "NT13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 242.57 182.88 0)
 		(mirror x)
@@ -3229,6 +3570,74 @@
 				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
 					(reference "U10")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 186.69 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8aadbddf-ed00-4f3b-b852-721fa686af7a")
+		(property "Reference" "NT14"
+			(at 186.69 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 186.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 186.69 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d43b2423-d812-438e-a2e0-cb3bd432412c")
+		)
+		(pin "1"
+			(uuid "221bd634-5312-48a6-8475-4a399e8c10d8")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
+					(reference "NT14")
+					(unit 1)
 				)
 			)
 		)
@@ -3824,6 +4233,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 186.69 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "adf01408-28e8-4dd2-8fbb-9ed2b6079b40")
+		(property "Reference" "NT10"
+			(at 186.69 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1568425c-5150-4163-ab7d-28c54eabd8f1")
+		)
+		(pin "1"
+			(uuid "20890294-cd41-434b-899b-7533b69dbf28")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
+					(reference "NT10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 120.65 0)
 		(unit 1)
@@ -3896,7 +4373,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be41e35f-67af-4bd7-967f-97b9bafc5141")
 		(property "Reference" "#PWR024"
 			(at 157.48 210.82 0)
@@ -3908,7 +4384,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 209.55 0)
+			(at 160.528 209.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,6 +4497,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-5V")
+		(at 260.35 257.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3ef99c9-7319-4255-9d34-0a56eae5ba3f")
+		(property "Reference" "#PWR013"
+			(at 260.35 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 258.826 262.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 260.35 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b1fc74d-4923-467c-8f71-ee70500a9b12")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 186.69 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdcc74e8-0d58-40f7-9edc-0efafb528b7f")
+		(property "Reference" "NT9"
+			(at 186.69 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 186.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 186.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da4419e4-f66c-42ef-961f-6b38366d536e")
+		)
+		(pin "1"
+			(uuid "b61188e6-e520-45f5-a199-a593d92a4e3d")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
+					(reference "NT9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 229.87 107.95 0)
 		(unit 1)
@@ -4087,6 +4696,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 186.69 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9dae9d4-66e6-42e7-9320-04f1d17dce88")
+		(property "Reference" "NT11"
+			(at 186.69 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 186.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dca2dd9-09a0-4878-98f5-e39552bc885e")
+		)
+		(pin "1"
+			(uuid "f99a047d-21d8-4718-aad0-aa7bd20c34da")
+		)
+		(instances
+			(project "Tiny4xPoweredStereoMixer"
+				(path "/68c4b081-ef47-4ba5-a55f-4ef66cb2b598/32b8740c-e0bd-40f8-9090-a6e67ec33c06"
+					(reference "NT11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-5V")
 		(at 154.94 204.47 180)
 		(unit 1)
@@ -4094,8 +4771,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f20c7900-c529-497f-863a-4274354aa246")
+		(uuid "fd580d25-1198-4dfc-ab44-cc9b256ba2cb")
 		(property "Reference" "#PWR017"
 			(at 154.94 200.66 0)
 			(effects
@@ -4106,7 +4782,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 154.94 209.55 0)
+			(at 153.416 209.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4817,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "95bf3f48-754d-4da2-81f0-22942c6e90f9")
+			(uuid "12991fbf-70ea-424b-a770-588f9c9027bb")
 		)
 		(instances
 			(project "Tiny4xPoweredStereoMixer"
