@@ -643,6 +643,10 @@
       "TPS54202 Inverting PSU"
     ],
     [
+      "4289663c-4f70-4ffc-8b49-6ba4db452d9d",
+      "VCA_RC_Network_L2"
+    ],
+    [
       "90ba425d-eaf5-48b4-804f-91b46c159bdf",
       "PSU"
     ],
@@ -665,6 +669,34 @@
     [
       "752d6e11-6673-454b-90b7-828317760330",
       "ROTARY_ENCODERS"
+    ],
+    [
+      "ee3cadc0-194c-4a3f-ac71-cc23b9b088b8",
+      "VCA_RC_Network_L1"
+    ],
+    [
+      "af6a11de-ada9-4612-a5be-6a4393913eba",
+      "VCA_RC_Network_L3"
+    ],
+    [
+      "44886ec0-e131-45b6-94a5-d8132725eb7e",
+      "VCA_RC_Network_L4"
+    ],
+    [
+      "204dacb2-3a90-48fa-8a27-fad2ad8530f8",
+      "VCA_RC_Network_R1"
+    ],
+    [
+      "b127a219-db1c-421c-b686-127df4126bab",
+      "VCA_RC_Network_R2"
+    ],
+    [
+      "697ac49e-1bf9-4da1-a7ef-2332bb337a5b",
+      "VCA_RC_Network_R3"
+    ],
+    [
+      "efb0981d-3b10-4e41-97a8-7c36b973b595",
+      "VCA_RC_Network_R4"
     ]
   ],
   "text_variables": {
